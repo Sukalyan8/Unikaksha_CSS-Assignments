@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check Box Terms & Conditions</title>
+    <link rel="stylesheet" href="CSS/Checkbox_Terms&Conditions7.css">
+
+</head>
+<body>
+    <style>
+    body{
+        padding: 50px 270px 50px 270px;
+        background-color: rgb(212, 215, 218);
+        background-image: url("Images/Registration7.jpg");
+    }
+    </style>
+    <form>
+        <div>
+            <h2 align =center style="color:darkred;">Registration Form</h2>
+            <fieldset>
+                <legend>Registration or SignUp</legend>
+                
+                <div>
+                    
+                    <label for="firstname">First Name</label>
+                    <input type="text" id="fname" required>
+    
+                    <label for="lastname">Last Name</label>
+                    <input type="text" id="lname" required> <br><br>
+    
+                    <label for="address">Address</label>
+                    <textarea id="address"></textarea><br><br>
+    
+                    <label for="email">Email</label>
+                    <input type="email" id="email" required placeholder="Example@gmail.com">
+    
+                    <label for="pass">Password</label>
+                    <input type="password" id="pass" required>
+               
+               
+                    
+                        <label for="fname">Qualification</label>
+                        <select>
+                            <option></option>
+                            <option>10th</option>
+                            <option>12th</option>
+                            <option>Bachelors</option>
+                            <option>Masters</option>
+                            <option>Doctorate</option>
+                        </select>
+
+                        <label for="lname">Organization Name</label>
+                        <input type="text" id="lname" required> <br><br>
+
+                        <label>Select Gender</label><br><br>
+                        <label><input type="radio" name="gender" id="M">Male</label>
+                        <label><input type="radio" name="gender" id="f">Female</label> 
+                        <label><input type="radio" name="gender" id="O">Other</label><br><br>
+
+                        <h3>Terms And Conditions</h3>
+                        <ol>
+                            <li>
+                                This Website Terms & Conditions is a legal document that details the terms and conditions that the user must abide by while using the website.
+                            </li><br>
+                            <li>
+                                This website terms and conditions agreement details the license of the copyright in the website, includes a disclaimer of liability, an acceptable use clause, a variation clause, a clause specifying the applicable law and jurisdiction and other legal information.
+                            </li><br>
+                            <li>
+                                If these Terms and Conditions are not accepted in full, the use of this site must be terminated immediately.
+                            </li>
+                        </ol>
+                        <label><input type="checkbox" required>Accept the terms and Conditions</label><br><br>
+
+                        <input class="submitbtn" type="submit" value="Save" >
+                </div>
+
+            </fieldset>
+        </div>
+    </form>
+</body>
+</html>
